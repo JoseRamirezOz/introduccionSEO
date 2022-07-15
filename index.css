@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+:root{
+    font-size:62.5%;
+}
+
+.infoFJ43{
+    padding:3rem;
+}
+
+.containerFJ43{
+    display:flex;
+    flex-direction:row;
+}
+
+.containerFJ43 article{
+    width:70%;
+}
+
+.containerFJ43 h1{
+    font-size:3rem;
+    margin-bottom:1rem;
+}
+
+.containerFJ43 h2{
+    font-size:2.5rem;
+    margin-top:2rem;
+    margin-bottom:1rem;
+}
+
+.containerFJ43 p{
+    font-size:1.7rem;
+}
+
+
+.imagenFJ43{
+    width:30rem;
+    height:20rem;
+    object-fit:cover;
+    margin-right:3rem;
+}
+
