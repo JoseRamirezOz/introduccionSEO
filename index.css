@@ -5,16 +5,30 @@
 }
 
 :root{
+    --text-general:'Poppins', sans-serif;
+}
+
+html{
     font-size:62.5%;
 }
 
+
+
+
 .infoFJ43{
     padding:3rem;
+    font-family:var(--text-general);
 }
 
 .containerFJ43{
     display:flex;
     flex-direction:row;
+}
+
+.questionSubtitle{
+    font-size:2.5rem;
+    margin-top:3rem;
+    margin-bottom:1rem;
 }
 
 .containerFJ43 article{
@@ -44,3 +58,56 @@
     margin-right:3rem;
 }
 
+.destacadoFJ43{
+    margin-right:4rem;
+}
+
+.listFeaturesFj{
+    background:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:2rem;
+}
+
+.listFeaturesFj h2{
+    font-size:2.5rem;
+}
+
+.listFeaturesFj .textPresentacionFJ43{
+    margin-bottom:1rem;
+}
+
+.listFeaturesFj p{
+    font-size:1.6rem;
+}
+
+.listFeaturesFj li{
+    font-size:1.6rem;
+}
+
+.listFeaturesFj a{
+    color:#000;
+}
+
+.finFJ43{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-top:2rem;
+    background:#EAECEE;
+    padding:2rem;
+    border-radius:2rem;
+}
+
+.finFJ43 img{
+    width:3rem;
+    height:3rem;
+    border-radius:.5rem;
+    margin-right:3rem;
+}
+
+.finFJ43 p{
+    font-size:2rem;
+}
