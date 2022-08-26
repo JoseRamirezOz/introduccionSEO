@@ -266,6 +266,7 @@ HEADER - MOBIL
 #NavBar-Principal{
     background:var(--main-color);
     padding:2rem 1rem;
+    margin-top:-1rem;
 }
 
 #NavBar-Principal a{
